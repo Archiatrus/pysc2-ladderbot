@@ -27,6 +27,7 @@ FLAGS = flags.FLAGS
 flags.DEFINE_integer("GamePort", None, "GamePort")
 flags.DEFINE_integer("StartPort", None, "StartPort")
 flags.DEFINE_string("LadderServer", "127.0.0.1", "LadderServer")
+flags.DEFINE_string("OpponentId", None, "OpponentId")
 
 # Run ladder game
 def run_ladder_game():
